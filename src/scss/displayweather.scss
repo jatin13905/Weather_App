@@ -1,0 +1,152 @@
+@media (min-width: 600px) and (max-width: 2000px) {
+  .displayweather {
+    margin-top: 5%;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .displayweather .maincard {
+    width: 94%;
+    margin-top: 5%;
+    align-self: center;
+    padding: 2%;
+    border-radius: 20px;
+    position: relative;
+    background: rgb(245, 242, 242);
+    border: 1px solid black;
+    background: rgb(3, 34, 65);
+    background: linear-gradient(
+      90deg,
+      rgba(3, 34, 65, 1) 9%,
+      rgba(37, 109, 159, 1) 77%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+
+  .displayweather .maincard .cardtitle {
+    // position: absolute;
+    // top: 15%;
+    // left: 10px;
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 2%;
+  }
+
+  .displayweather .maincard .cardsubtitle {
+
+    color: grey;
+  }
+  .displayweather h1 {
+    font-size: 3.5rem;
+
+  }
+
+  .displayweather .weather-icon {
+    width: 30%;
+    padding:0%;
+    margin:0%;
+  }
+
+  .displayweather .weather-main {
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-left:-3%;
+    display: block;
+    padding:0%;
+  }
+  .displayweather .weatherdetails {
+    margin-left: 50px;
+    margin-right: 50px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+  }
+  .displayweather .weatherdetails .section1 {
+    justify-self: right;
+    width: 300px;
+  }
+
+  h4 {
+    text-align: left;
+    margin-right: 30px;
+    font-size: 1.2rem;
+  }
+
+  td {
+    border-bottom: 2px dashed grey;
+  }
+
+  .displayweather .weatherdetails span {
+    font-size: 1.2rem;
+  } .more_info {
+    display: block;
+    span {
+      display: block;
+      margin-top: 2%;
+      font-size: 1.3em;
+      border-bottom: 2px solid black;
+      font-weight: 700;
+    }
+  }
+
+}
+
+@media (max-width: 500px) {
+  .displayweather {
+    margin-top: 5%;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .displayweather .maincard {
+    width: 100%;
+    margin: 5% 1% 5% 1%;
+    align-self: center;
+    padding: 2%;
+    position: relative;
+    background: rgb(245, 242, 242);
+    border: 1px solid black;
+    background: rgb(3, 34, 65);
+    background: linear-gradient(
+      90deg,
+      rgba(3, 34, 65, 1) 9%,
+      rgba(37, 109, 159, 1) 77%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+
+  .displayweather .maincard .cardtitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+  .displayweather .maincard .cardsubtitle {
+    font-size: 1.2em;
+    display: block;
+  }
+  .displayweather h1 {
+    font-size: 3rem;
+  }
+
+  .displayweather .weather-icon {
+    width: 50%;
+  }
+
+  .displayweather .weather-main {
+    font-weight: 800;
+    font-size: 1.2rem;
+    display: block;
+  }
+  .more_info {
+    display: block;
+    span {
+      display: block;
+      margin-top: 2%;
+      font-size: 1.3em;
+      border-bottom: 2px solid black;
+      font-weight: 700;
+    }
+  }
+}

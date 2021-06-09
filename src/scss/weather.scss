@@ -1,0 +1,133 @@
+@media (min-width:600px) and (max-width:2000px){
+  body{
+    background-image: url("https://images.unsplash.com/photo-1562155618-e1a8bc2eb04f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1068&q=80");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    height: 100vh;
+    
+  }
+  .App{
+      margin:3% 0% 10% 24%;
+      padding-bottom: 2%;
+      width: 50%;
+      background-image:linear-gradient(rgb(253, 63, 63), rgb(247, 247, 82));
+      border-radius: 15px;
+    }
+    .weather{
+      width: 100%;
+    }
+    .input{
+       background-color:transparent;
+      color: white;
+      font-size: 1.3em;
+      text-transform: capitalize;
+      border-radius: 15px;
+      padding: 10px;
+      border: none;
+      border-bottom: 2px solid rgb(2, 57, 88);
+      
+    }
+    .getweather{
+      display: block;
+      margin:4% 0% 5% 44.5%;
+      font-size: 1.1em;
+      background-color:red;
+      border-radius: 25px;
+      padding: 1%;
+      border:0.5px solid black;
+    }
+    .weather .title {
+      font-weight: bolder;
+      font-size: 4rem;
+      text-align: center;
+      text-shadow: 2px 2px 2px black;
+      background-color:transparent;
+      box-shadow: 2px 2px 2px black;
+      border-radius: 5px;
+      padding:1%;
+      font-family: "Times New Roman", Times, serif;
+      width: 100%;
+    }
+    .weather form {
+      margin:5% 0% 5% 0%;
+    }
+    
+    .weather form input:focus {
+      outline: none;
+      border-bottom: 3px solid rgb(2, 57, 88);
+    }
+  
+    
+    .weather .getweather:hover {
+      background: transparent;
+      color: black;
+    }
+    
+    .weather .getweather:focus {
+      outline: none;
+    }
+   
+  }
+
+
+
+  @media (max-width:600px){
+  
+    .App{
+        width: 100%;
+        background-image:linear-gradient(rgb(253, 63, 63), rgb(247, 247, 82));
+        height: 145vh;
+      }
+      .weather{
+        width: 100%;
+      }
+      .input{
+         background-color:transparent;
+        color: white;
+        font-size: 1em;
+        text-transform: capitalize;
+        border: none;
+        border-bottom: 2px solid rgb(2, 57, 88);
+        width: 30%;
+        margin-top: 10%;
+      }
+      .getweather{
+        display: block;
+        margin:8% 0% 5% 42.5%;
+        font-size: 1em;
+        background-color:red;
+        border-radius: 25px;
+        padding: 1%;
+        border:0.5px solid black;
+      }
+      .weather .title {
+        width: 100%;
+        font-weight: bold;
+        font-size: 3rem;
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+        background-color:transparent;
+        box-shadow: 2px 2px 2px black;
+        border-radius: 5px;
+        padding:5%;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .weather form {
+        margin:5% 0% 5% 0%;
+      }
+      
+      .weather form input:focus {
+        outline: none;
+        border-bottom: 3px solid rgb(2, 57, 88);
+      }
+    
+      
+      .weather .getweather:hover {
+        background: transparent;
+        color: black;
+      }
+      
+      .weather .getweather:focus {
+        outline: none;
+      }
+  }
